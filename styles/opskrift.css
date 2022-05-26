@@ -1,0 +1,122 @@
+/*første sketion - stort billede højre, tekst venstere*/
+
+.grid_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:15px;
+}
+
+.main_1 img{ 
+    margin-inline-start: 40px;
+    margin-block-start: 50px;
+}
+
+.main_1 h1{
+ font-size: 3rem;
+ margin-inline-start: 160px;
+ margin-block-start: 160px;
+}
+
+.main_1 h2{
+    font-size: 1.2rem;
+    margin-inline-start: 160px;
+    margin-block: 40px;
+}
+    
+
+/*anden sketion - 6 små billeder med kategorierne*/
+
+.grid_2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap:10px;
+    margin-block: 120px;
+    margin-inline-start: 80px;
+    margin-inline-end: 80px;
+}
+
+.main_2 .col2{
+background-color: aqua;
+width: 200px;
+height: 200px;
+}
+
+.main_2 h2{
+    font-size: 1.5rem;
+}
+
+
+/*tredje sketion - overskrift + streg  og 4 medium billeder med tekst under*/
+
+.grid_3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:10px;  
+    margin-inline: 80px;
+}
+
+.main_3 h1{
+    margin-inline-start: 480px; 
+    margin-block: 30px;
+    font-size: 2.5rem;
+}
+
+
+.main_3 h2{
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 5px;
+    font-family: 'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
+ }
+
+
+.main_3 h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+ }
+
+.main_3 h4{
+   font-size: 2rem;
+}
+
+
+/*fjerde sketion - overskrift + streg  og 4 medium billeder med tekst under*/
+
+.grid_4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+    margin-inline:150px;
+    margin-block: 180px;
+}
+
+.main_4 .col2{
+    display: flex;
+    flex-direction: column;
+    margin-inline-start: 40px;
+}
+
+.main_4 h1 {
+  font-size: 2rem;
+  
+}
+
+.main_4 h2 {
+  margin-bottom: -10px;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.main_4 h3 {
+    margin-top: 50px;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.main_4 p {
+    font-size: 1.7rem;
+    font-weight: 100;
+    margin-top: -10px;
+}
+
