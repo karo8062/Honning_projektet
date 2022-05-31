@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/shop.css" />
+    <link rel="stylesheet" href="styles/fælles.css" />
     <title>Shop</title>
   </head>
   <body>
@@ -35,16 +36,13 @@
         </div>
       </div>
 
-      <div class="sortér efter">
-        <button>
-          <label for="sortér">Sortér efter</label>
-          <select id="sortér">
-            <option value="Sortér efter popularitet">popularitet</option>
-            <option value="Sortér efter nyeste">nyeste</option>
-            <option value="Sortér efter pris: lav til høj">lav til høj</option>
-            <option value="Sortér efter pris: høj til lav">høj til lav</option>
-          </select>
-        </button>
+      <div class="sortér_efter">
+        <select id="sortér">
+          <option value="Sortér efter popularitet">Sortér efter popularitet</option>
+          <option value="Sortér efter nyeste">Sortér efter nyeste</option>
+          <option value="Sortér efter pris: lav til høj">Sortér efter lav til høj</option>
+          <option value="Sortér efter pris: høj til lav">Sortér efter høj til lav</option>
+        </select>
       </div>
 
       <div class="grid_1-2">
@@ -57,16 +55,23 @@
           <div class="type">
             <p>Type</p>
           </div>
-          <div class="checkbox">
+          <label class="checkbox"
+            >Forårshonning
             <input type="checkbox" id="foraar" name="foraar" />
-            <label for="foraar">Forårshonning</label>
+            <span class="checkmark"></span>
+          </label>
 
+          <label class="checkbox"
+            >Lynghonning
             <input type="checkbox" id="lyng" name="lyng" />
-            <label for="lyng">Lynghonning</label>
+            <span class="checkmark"></span>
+          </label>
 
+          <label class="checkbox">
+            Sommerhonning
             <input type="checkbox" id="sommer" name="sommer" />
-            <label for="sommer">Sommerhonning</label>
-          </div>
+            <span class="checkmark"></span>
+          </label>
         </div>
 
         <div class="produkter">
