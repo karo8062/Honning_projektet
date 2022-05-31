@@ -22,7 +22,7 @@
     margin-inline-start: 160px;
     margin-block: 40px;
 }
-    
+
 
 /*anden sketion - 6 små billeder med kategorierne*/
 
@@ -35,15 +35,46 @@
     margin-inline-end: 80px;
 }
 
-.main_2 .col2{
-background-color: aqua;
-width: 200px;
-height: 200px;
-}
+/*placering af teksten (kategorien) på billederne*/
 
-.main_2 h2{
-    font-size: 1.5rem;
+.main_2 .col1 h2{
+    position: absolute;
+    top: 86%;
+    left: 9%;
 }
+.main_2 .col2 h2{
+        position: absolute;
+        top: 86%;
+        left: 22.5%;
+}.main_2 .col3 h2{
+        position: absolute;
+        top: 86%;
+        left: 37.3%;
+}
+.main_2 .col4 h2{
+    position: absolute;
+    top: 86%;
+    left: 53%;
+  }
+.main_2 .col5 h2{
+    position: absolute;
+    top: 86%;
+    left: 69.3%;
+  }
+.main_2 .col6 h2{
+    position: absolute;
+    top: 86%;
+    left: 82.5%;
+  }
+
+  .main_2 h2{
+      font-size: 1.3rem;
+      color: rgb(117, 69, 161);
+      background-color: rgb(255, 255, 255);
+      padding: 5px;
+     
+  }
+  
 
 
 /*tredje sketion - overskrift + streg  og 4 medium billeder med tekst under*/
@@ -119,4 +150,43 @@ height: 200px;
     font-weight: 100;
     margin-top: -10px;
 }
+
+.grid_5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;  
+    margin-inline: 80px;
+}
+
+.main_5 h1{
+    margin-inline-start: 550px; 
+    margin-block: 30px;
+    font-size: 2.5rem;
+}
+
+.main_5 h3{
+    font-size: 1.3rem;
+    font-weight: 550;
+}
+
+.nyhedsbreve{
+    margin-inline-start: 180px;
+}
+
+.grid7{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-inline: 80px;
+}
+
+.element_4 p{
+    margin-bottom: 80px;
+    font-size: 20px
+}
+.grid_6{
+    margin-inline-start: 80px;
+}
+
+
 
