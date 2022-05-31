@@ -1,0 +1,36 @@
+img {
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  background-position: 100%, 100%;
+}
+
+.baggrund_container {
+  display: grid;
+  place-items: start;
+  padding: 20px;
+  margin: 2%;
+}
+img,
+.tekst_sprite {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 2rem;
+  grid-area: 1 / 1;
+  font-size: 150%;
+}
+
+h3 {
+  grid-area: 1 / 2;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 80%;
+}
+
+.tekst_sprite {
+  margin: 5px;
+}
+.overskrift {
+  display: grid;
+  place-items: start;
+  justify-content: center;
+}
