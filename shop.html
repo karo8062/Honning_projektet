@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/shop.css" />
+    <link rel="stylesheet" href="styles/fælles.css" />
+    <title>Shop</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <h1>Velkommen til Honningbutikken</h1>
+
+      <div class="grid_1-1-1-1">
+        <div class="abonnement">
+          <img src="billeder/produktbilleder/abonnment.png" alt="abonnemt billede" />
+          <h2>Abonnement</h2>
+          <p>Smag mangfoldighed i lokal honning</p>
+        </div>
+        <div class="honning">
+          <img src="billeder/produktbilleder/honning.png" alt="honning billede" />
+          <h2>Honning</h2>
+          <p>Opdag en spændende verden af honning</p>
+        </div>
+        <div class="gaver">
+          <img src="billeder/produktbilleder/gaver.png" alt="gaver billede" />
+          <h2>Gaver</h2>
+          <p>Giv en smagfuld gave, jeg rådgiver gerne, pakker og sender</p>
+        </div>
+        <div class="butikken">
+          <img src="#" alt="billede af butikken" />
+          <h2>Besøg butikken</h2>
+          <p>Jeg rådgiver i min fysiske butik på Jærgersborggade</p>
+        </div>
+      </div>
+
+      <div class="sortér_efter">
+        <select id="sortér">
+          <option value="Sortér efter popularitet">Sortér efter popularitet</option>
+          <option value="Sortér efter nyeste">Sortér efter nyeste</option>
+          <option value="Sortér efter pris: lav til høj">Sortér efter lav til høj</option>
+          <option value="Sortér efter pris: høj til lav">Sortér efter høj til lav</option>
+        </select>
+      </div>
+
+      <div class="grid_1-2">
+        <div class="menu">
+          <div class="search_bar">
+            <form action="#">
+              <input type="text" placeholder="Hvad leder du efter?" name="q" />
+            </form>
+          </div>
+          <div class="type">
+            <p>Type</p>
+          </div>
+          <label class="checkbox"
+            >Forårshonning
+            <input type="checkbox" id="foraar" name="foraar" />
+            <span class="checkmark"></span>
+          </label>
+
+          <label class="checkbox"
+            >Lynghonning
+            <input type="checkbox" id="lyng" name="lyng" />
+            <span class="checkmark"></span>
+          </label>
+
+          <label class="checkbox">
+            Sommerhonning
+            <input type="checkbox" id="sommer" name="sommer" />
+            <span class="checkmark"></span>
+          </label>
+        </div>
+
+        <div class="produkter">
+          <div class="grid_1-1-1">
+            <div class="element1">
+              <img src="billeder/produktbilleder/flydende-honning.png" alt="flyende honning" />
+              <div class="element2">
+                <h3>Flydende honning fra Søderjylland - 350g</h3>
+                <p>DKK 45,00</p>
+                <button class="kurv">Tilføj til kurv</button>
+              </div>
+            </div>
+
+            <div class="element1">
+              <img src="billeder/produktbilleder/foraarshonning.png" alt="forårshonning" />
+              <div class="element2">
+                <h3>Økologisk forårshonning fra Gjøl - 2020 - 335g</h3>
+                <p>DKK 110,00</p>
+                <button class="kurv">Tilføj til kurv</button>
+              </div>
+            </div>
+
+            <div class="element1">
+              <img src="billeder/produktbilleder/sommerhonning.png" alt="sommerhonning" />
+              <div class="element2">
+                <h3>Økologisk sommerhonning fra Gjøl - 2021 - 335g</h3>
+                <p>DKK 110,00</p>
+                <button class="kurv">Tilføj til kurv</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid_1-1-1">
+            <div class="element1">
+              <img src="billeder/produktbilleder/graesk-kastanjehonning.png" alt="græsk" />
+              <div class="element2">
+                <h3>Flydende græsk kastanjehonning - 400g</h3>
+                <p>DKK 115,00</p>
+                <button class="kurv">Tilføj til kurv</button>
+              </div>
+            </div>
+
+            <div class="element1">
+              <img src="billeder/produktbilleder/honning-med-ingefaer.png" alt="honning med ingefær" />
+              <div class="element2">
+                <h3>Honning med ingefær - 250g</h3>
+                <p>DKK 55,00</p>
+                <button class="kurv">Tilføj til kurv</button>
+              </div>
+            </div>
+
+            <div class="element1">
+              <img src="billeder/produktbilleder/honning_bybi.png" alt="honning bybi" />
+              <div class="element2">
+                <h3>BiBy, København - 200g</h3>
+                <p>DKK 50,00</p>
+                <button class="kurv">Tilføj til kurv</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid_1-1-1">
+            <div class="element1">
+              <img src="billeder/produktbilleder/honning_sjoerens.jpeg" alt="honning" />
+              <div class="element2">
+                <h3>Sjøgrens økologiske flydende honning - 120g</h3>
+                <p>DKK 50,00</p>
+                <button class="kurv">Tilføj til kurv</button>
+              </div>
+            </div>
+
+            <div class="element1">
+              <img src="billeder/produktbilleder/laesoehonning.png" alt="læsø honning" />
+              <div class="element2">
+                <h3>Læsøhonnung fra de brune bier - 225g</h3>
+                <p>DKK 95,00</p>
+                <button class="kurv">Tilføj til kurv</button>
+              </div>
+            </div>
+
+            <div class="element1">
+              <img src="billeder/produktbilleder/lynghonning.jpeg" alt="lynghonning" />
+              <div class="element2">
+                <h3>Hviids Lynghonning - 125g</h3>
+                <p>DKK 35,00</p>
+                <button class="kurv">Tilføj til kurv</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer></footer>
+    </main>
+  </body>
+</html>

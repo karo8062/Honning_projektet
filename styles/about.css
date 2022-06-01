@@ -4,7 +4,17 @@ img {
   background-size: cover;
   background-position: 100%, 100%;
 }
+.overskrift {
+  display: grid;
+  place-items: start;
+  justify-content: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  color: white;
+}
 
+/* første billede af katrine klinken og teskt oven på */
 .baggrund_container {
   display: grid;
   place-items: start;
@@ -13,7 +23,7 @@ img {
 }
 img,
 .tekst_sprite {
-  font-family: "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 2rem;
   grid-area: 1 / 1;
@@ -22,15 +32,41 @@ img,
 
 h3 {
   grid-area: 1 / 2;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 80%;
 }
 
 .tekst_sprite {
   margin: 5px;
+  position: relative;
+  padding-right: 60%;
 }
-.overskrift {
+
+/* Andet billede af honninh med tekst oven på*/
+.andenbaggrund_container {
   display: grid;
   place-items: start;
-  justify-content: center;
+  padding: 20px;
+  margin: 2%;
+}
+img,
+.andentekst_sprite {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  grid-area: 1 / 1;
+  font-size: 150%;
+}
+
+h3 {
+  grid-area: 1 / 2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80%;
+}
+
+.andentekst_sprite {
+  margin: 5px;
+  position: relative;
+  padding-left: 60%;
+  color: white;
 }
