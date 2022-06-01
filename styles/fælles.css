@@ -1,3 +1,27 @@
 body {
-  background-color: #b5a89c;
+  background-color: #40372d;
+
+  /* #b5a89c; */
+}
+
+nav a {
+  text-decoration: solid;
+  color: black;
+  font-family: "Press Start 2P", "Bebas Neue";
+  font-size: 20px;
+  padding: 5px;
+}
+
+header {
+  background-color: white;
+  background-size: cover;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  padding: 40px;
 }
