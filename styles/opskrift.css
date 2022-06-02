@@ -110,7 +110,13 @@
   text-decoration: underline;
 }
 
-.main_4 .col1 {
+h2 {
+  padding-bottom: 2rem;
+  color: white;
+}
+
+h3 {
+  color: white;
 }
 
 .main_4 h1:hover,
