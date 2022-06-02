@@ -1,0 +1,41 @@
+/* landingpage animation */
+
+.ball {
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    background-image: url(louis_fuld.svg);
+    background-size: 100%;
+    top: 40%;
+    left: 40%;
+}
+
+.animation {
+    width: 100%;
+    aspect-ratio: 1/1;
+    position: relative;
+    overflow: hidden;
+}
+
+.pattern {
+    animation: pattern 10s infinite linear;
+  }
+  
+  @keyframes pattern {
+    0% {
+      transform: translate(0%, -165%);
+    }
+  
+  
+  
+    50% {
+      transform: translate(0%, 145%);
+    }
+  
+    75% {
+      transform: translate(-165%, 0%);
+    }
+    100% {
+      transform: translate(0%, -165%);
+    }
+  }

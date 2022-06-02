@@ -23,6 +23,15 @@
     margin-block: 40px;
 }
 
+.main_1 p{
+    margin-inline-start: 160px;
+    margin-top:-25px;
+    text-decoration: underline;
+}
+
+.main_1 p:hover{
+    font-weight: 900;
+}
 
 /*anden sketion - 6 små billeder med kategorierne*/
 
@@ -72,9 +81,14 @@
       color: rgb(117, 69, 161);
       background-color: rgb(255, 255, 255);
       padding: 5px;
-     
-  }
+     }
   
+     .main_2 h2:hover {
+        font-size: 1.4rem;
+      }
+
+
+
 
 
 /*tredje sketion - overskrift + streg  og 4 medium billeder med tekst under*/
@@ -111,6 +125,10 @@
    font-size: 2rem;
 }
 
+.main_3 h3:hover {
+   text-decoration-line: underline;
+   font-size: 1.56rem;
+  }
 
 /*fjerde sketion - overskrift + streg  og 4 medium billeder med tekst under*/
 
@@ -130,6 +148,7 @@
 
 .main_4 h1 {
   font-size: 2rem;
+  text-decoration: underline;
   
 }
 
@@ -148,8 +167,16 @@
 .main_4 p {
     font-size: 1.7rem;
     font-weight: 100;
-    margin-top: -10px;
+    margin-top: -10px; 
+    text-decoration: underline;
 }
+
+.main_4 h1:hover, p:hover {
+    font-size: 2.2rem;
+}
+
+
+/*femte sektion - nyeste opskrifter - billeder med tekst under*/
 
 .grid_5{
     display: grid;
@@ -159,33 +186,60 @@
 }
 
 .main_5 h1{
+    font-family:Impact, Haettenschweiler, sans-serif;
     margin-inline-start: 550px; 
-    margin-block: 30px;
-    font-size: 2.5rem;
+    margin-block: 40px;
+    font-size: 2.7rem;
 }
 
-.main_5 h3{
-    font-size: 1.3rem;
+.streg{
+    margin-inline-start: 610px;
+    margin-top: -25px;
+    margin-bottom: 10px;
+}
+.grid_5 p{
+    font-size: 1rem;
     font-weight: 550;
 }
 
+
+
+/*5/6 sektion - nyeste opskrifter -billeder med tekst under + col med nyhedsbrevsliste til højre.*/
+
 .nyhedsbreve{
-    margin-inline-start: 180px;
+    margin-inline-start: 170px;
+}
+.nyhedsbreve h1{
+    font-size: 2rem;
 }
 
-.grid7{
+.grid_6{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
     margin-inline: 80px;
 }
 
-.element_4 p{
-    margin-bottom: 80px;
-    font-size: 20px
+.grid_6 p{
+    font-family:Leelawe;
 }
-.grid_6{
-    margin-inline-start: 80px;
+
+.grid_6 .element_4{
+    margin-inline-start: -120px;
+}
+
+.element_4 p{
+    font-size: 20px;
+}.element_4 h3{
+    font-size: 20px;
+   
+}
+.element_4 h2{
+    font-size: 13px;
+    margin-bottom: 15px;
+    border: solid 1px black;
+    margin-inline-end: 325px;
+   
 }
 
 
