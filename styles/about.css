@@ -299,3 +299,9 @@ img {
 .col {
   width: 90%;
 }
+
+.inner_footer .footer_logo_container img {
+  width: 80%;
+  height: auto;
+  margin: 0px;
+}
