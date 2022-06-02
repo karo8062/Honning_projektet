@@ -1,19 +1,3 @@
-<<<<<<< HEAD
-//lav variablen "btn", der henviser til "toggle-btn"
-//lav variablen "menu", der henviser til ".main-menu"
-const btn = document.querySelector(".toggle-btn");
-const menu = document.querySelector(".menu");
-
-//lav funktionen "toggleMenu()" med følgende funktionalitet:
-function toggleMenu() {
-  // a) toggle klassen "shown" på menu vha. classlist.toggle
-  menu.classList.toggle("shown");
-  let menuShown = menu.classList.contains("shown");
-}
-
-//tilføj et klik-event til "btn", der sætter toggleMenu-funktionen i gang
-btn.addEventListener("click", toggleMenu);
-=======
 // slideshow //
 var slideIndex = 0;
 carousel();
@@ -48,4 +32,18 @@ function carousel() {
   x[slideIndex - 1].style.display = "block";
   setTimeout(carousel, 5000); // Change image every 5 seconds
 }
->>>>>>> 15609f13cec50428a773d4d1f30fc84bd90627cf
+
+//lav variablen "btn", der henviser til "toggle-btn"
+//lav variablen "menu", der henviser til ".main-menu"
+const btn = document.querySelector(".toggle-btn");
+const menu = document.querySelector(".menu");
+
+//lav funktionen "toggleMenu()" med følgende funktionalitet:
+function toggleMenu() {
+  // a) toggle klassen "shown" på menu vha. classlist.toggle
+  menu.classList.toggle("shown");
+  let menuShown = menu.classList.contains("shown");
+}
+
+//tilføj et klik-event til "btn", der sætter toggleMenu-funktionen i gang
+btn.addEventListener("click", toggleMenu);
