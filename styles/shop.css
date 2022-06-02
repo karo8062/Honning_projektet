@@ -34,6 +34,13 @@ img {
     column-gap: 20px;
     padding: 1rem;
   }
+  .grid_1-1-1a {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    padding: 1rem;
+    background-color: #716252;
+  }
   .grid_1-2 {
     display: grid;
     grid-template-columns: 0.1fr 2fr;
