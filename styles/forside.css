@@ -54,3 +54,41 @@ main {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.produkt_text {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.opskrift_text {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.abonnement_text {
+  text-align: center;
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+
+.btn_mere {
+  background-color: #b27e25;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 25px;
+}
+
+button {
+  background-color: #b27e25;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 25px;
+}
