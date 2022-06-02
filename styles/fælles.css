@@ -25,3 +25,151 @@ li {
   display: inline-block;
   padding: 40px;
 }
+
+body {
+  background-color: #40372d;
+  margin: 0 auto;
+  /* #b5a89c; */
+}
+/* ______________________fonte og baggrund_____________________________ */
+
+/* __________________________header___________________________________ */
+header {
+  overflow: hidden;
+  background-color: white;
+}
+
+header a {
+  color: black;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-family: "Press Start 2P", "Bebas Neue";
+  font-size: 25px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+header a:hover {
+  color: burlywood;
+}
+
+header a:active {
+  color: burlywood;
+}
+
+.header_left {
+  float: left;
+}
+
+.header_left img {
+  width: 70%;
+}
+
+.header_left a {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.header_right {
+  float: right;
+  display: table;
+  height: 100%;
+}
+
+.header_right img {
+  width: 50%;
+  margin: 30px;
+}
+
+/* _____________________footer____________________________ */
+
+footer {
+  width: 100vw;
+  display: block;
+  overflow: hidden;
+  padding: 40px 0px;
+  margin-top: 150px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.inner_footer {
+  display: block;
+  margin: 0 auto;
+  width: 1300px;
+  height: 100%;
+}
+
+.inner_footer .footer_logo_container {
+  width: 25%;
+  float: left;
+  height: 100%;
+  display: block;
+}
+
+.inner_footer .footer_logo_container img {
+  width: 80%;
+  height: auto;
+  margin: 0px;
+}
+
+.inner_footer .footer_third {
+  width: calc(21.66667 - 20px);
+  margin-right: 50px;
+  float: left;
+  height: 100%;
+}
+
+.inner_footer .footer_third h1 {
+  font-family: arial;
+  font-size: 22px;
+  color: black;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.inner_footer .footer_third h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.inner_footer .footer_third a {
+  font-family: arial;
+  font-size: 15px;
+  color: black;
+  display: block;
+  width: 100%;
+  padding: 5px;
+  margin-right: 120px;
+  /* padding kan stackes, margin kan ikke */
+}
+
+.inner_footer .footer_third p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.inner_footer .footer_third p span {
+  font-style: italic;
+}
+
+.inner_footer .footer_sociale {
+  display: block;
+  position: sticky;
+}
+
+.inner_footer .footer_sociale img {
+  width: 5%;
+  padding: 0px;
+  bottom: 0px;
+  margin-top: 200px;
+}
+
+/* .footer_sociale {
+
+} */
+
+/* ________________________________________________________________ */
