@@ -10,10 +10,9 @@ main {
 }
 
 .sortér_efter {
-  display: flex;
-  justify-content: end;
-  width: 20%;
-  height: auto;
+  display: grid;
+  justify-content: right;
+  border: none;
 }
 
 .type {
@@ -135,10 +134,6 @@ img {
 
 /* font */
 
-p {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .p-produkt {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -161,9 +156,11 @@ button {
 
 .p_pris {
   font-size: 1rem;
+  color: white;
 }
 
 .p_text {
   font-size: 1.2rem;
   font-weight: bold;
+  color: white;
 }
