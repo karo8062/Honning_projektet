@@ -28,13 +28,11 @@ body {
   /* #b5a89c; */
 }
 
-
-video{
+video {
   height: auto;
   width: 100%;
   margin: 20px;
 }
-
 
 /* ______________________fonte og baggrund_____________________________ */
 
@@ -215,8 +213,6 @@ footer {
 .inner_footer .footer_third p span {
   font-style: italic;
 }
-
-} */
 
 /* ________________________________________________________________ */
 
