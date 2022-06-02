@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //lav variablen "btn", der henviser til "toggle-btn"
 //lav variablen "menu", der henviser til ".main-menu"
 const btn = document.querySelector(".toggle-btn");
@@ -12,3 +13,39 @@ function toggleMenu() {
 
 //tilføj et klik-event til "btn", der sætter toggleMenu-funktionen i gang
 btn.addEventListener("click", toggleMenu);
+=======
+// slideshow //
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {
+    slideIndex = 1;
+  }
+  x[slideIndex - 1].style.display = "block";
+  setTimeout(carousel, 5000); // Change image every 5 seconds
+}
+
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides2");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {
+    slideIndex = 1;
+  }
+  x[slideIndex - 1].style.display = "block";
+  setTimeout(carousel, 5000); // Change image every 5 seconds
+}
+>>>>>>> 15609f13cec50428a773d4d1f30fc84bd90627cf

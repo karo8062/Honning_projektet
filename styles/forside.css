@@ -1,6 +1,6 @@
 /* landingpage animation */
 
-.ball {
+/*.ball {
   position: absolute;
   width: 25%;
   height: 25%;
@@ -35,4 +35,22 @@
   100% {
     transform: translate(0%, -165%);
   }
+}*/
+
+@media (min-width: 600px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
 }
