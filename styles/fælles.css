@@ -138,17 +138,20 @@ body {
 /* _____________________footer____________________________ */
 
 footer {
-  width: 100vw;
-  display: block;
+  width: 100%;
+  display: flex;
   overflow: hidden;
   padding: 40px 0px;
   margin-top: 150px;
   box-sizing: border-box;
   background-color: white;
+  position: absolute;
+  height: auto;
 }
 
 .inner_footer {
-  display: block;
+  display: flex;
+  flex-direction: row;
   margin: 0 auto;
   width: 1300px;
   height: 100%;
@@ -158,7 +161,7 @@ footer {
   width: 25%;
   float: left;
   height: 100%;
-  display: block;
+  display: flex;
 }
 
 .inner_footer .footer_logo_container img {
@@ -193,7 +196,7 @@ footer {
   font-family: arial;
   font-size: 15px;
   color: black;
-  display: block;
+  display: flex;
   width: 100%;
   padding: 5px;
   margin-right: 120px;
