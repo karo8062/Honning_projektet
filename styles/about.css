@@ -72,6 +72,16 @@ img {
     font-size: 80%;
   }
 
+  a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+  }
+
+  col a :hover {
+    color: #b27e25;
+  }
+
   .andentekst_sprite {
     margin: 5px;
     position: relative;
