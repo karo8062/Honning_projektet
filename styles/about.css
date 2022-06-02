@@ -5,6 +5,11 @@ img {
   background-position: 100%, 100%;
 }
 
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .overskrift {
   display: grid;
   place-items: start;
@@ -64,6 +69,13 @@ img {
     font-weight: bold;
     font-size: 2rem;
     font-size: 150%;
+  }
+
+  iframe {
+    width: 100%;
+    height: 30rem;
+    padding: 1rem;
+    border: none;
   }
 
   h3 {
