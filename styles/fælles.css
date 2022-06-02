@@ -164,15 +164,15 @@ footer {
 }
 
 .inner_footer .footer_third {
-  width: calc(21.66667 - 20px);
-  margin-right: 50px;
+  width: 200px;
+  margin: 20px;
   float: left;
   height: 100%;
 }
 
 .inner_footer .footer_third h1 {
   font-family: arial;
-  font-size: 22px;
+  font-size: 15px;
   color: black;
   display: block;
   width: 100%;
@@ -202,18 +202,6 @@ footer {
 
 .inner_footer .footer_third p span {
   font-style: italic;
-}
-
-.inner_footer .footer_sociale {
-  display: block;
-  position: sticky;
-}
-
-.inner_footer .footer_sociale img {
-  width: 5%;
-  padding: 0px;
-  bottom: 0px;
-  margin-top: 200px;
 }
 
 /* .footer_sociale {
