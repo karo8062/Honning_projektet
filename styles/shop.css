@@ -181,3 +181,7 @@ h2 {
   font-weight: bold;
   font-size: large;
 }
+
+h1 {
+  padding: 1rem;
+}
