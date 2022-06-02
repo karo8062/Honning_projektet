@@ -179,3 +179,44 @@ h1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: white;
 }
+
+/* ------------------ BURGERMENU ------------------------------------*/
+
+.toggle-btn {
+  background: transparent;
+  border: none;
+  min-width: 44px;
+  font-size: 1.1rem;
+  cursor: pointer;
+
+  display: none; /* skjul knappen som standard*/
+}
+.toggle-btn {
+  color: black;
+  width: auto;
+  height: 100%;
+}
+
+@media (max-width: 600px) {
+  .toggle-btn {
+    display: block; /* vis knappen, når viewporten maksimalt er 600 px */
+  }
+  .menu {
+    display: contents; /* fjern "main.-menu"-boksen fra ligningen, når viewporten maksimalt er 600px men behold børnene så disse deltager i flex-kontekten*/
+  }
+  .menu ul {
+    display: none; /*fjern menu-listen som standard */
+  }
+  .menu.shown ul {
+    /*vis menu-listen, når klassen "shown" er til stede */
+    position: absolute;
+    border-top: 1px solid black;
+    padding-top: 1rem;
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: column;
+    margin-left: auto;
+    top: 20px;
+    left: 20px;
+  }
+}
