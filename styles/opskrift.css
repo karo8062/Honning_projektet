@@ -1,106 +1,100 @@
 /*første sketion - stort billede højre, tekst venstere*/
 
-.grid_1{
+.grid_1 {
   display: grid;
   grid-template-columns: 1fr;
 }
 
-.main_1 img{ 
+.main_1 img {
   margin-inline-start: 1px;
   margin-block-start: 1px;
 }
 
-
-.main_1 p{
+.main_1 p {
   margin-top: 25px;
   text-decoration: underline;
 }
 
-.main_1 p:hover{
+.main_1 p:hover {
   font-weight: 800;
 }
 
 /*anden sketion - 6 små billeder med kategorierne*/
 
-.grid_2{
+.grid_2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap:10px;
+  gap: 10px;
   margin-block: 120px;
- 
 }
 
 /*placering af teksten (kategorien) på billederne*/
 
-.main_2 h2{
-    font-size: 1.3rem;
-    color: rgb(117, 69, 161);
-    background-color: rgb(255, 255, 255);
-    padding: 5px;
-   }
+.main_2 h2 {
+  font-size: 1.3rem;
+  color: rgb(117, 69, 161);
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+}
 
-   .main_2 h2:hover {
-      font-size: 1.4rem;
-    }
+.main_2 h2:hover {
+  font-size: 1.4rem;
+}
 
 /*tredje sketion - overskrift + streg  og 4 medium billeder med tekst under*/
 
-.grid_3{
+.grid_3 {
   display: grid;
   grid-template-columns: 1fr;
-  gap:10px;  
+  gap: 10px;
   margin-inline: 80px;
 }
 
-.main_3 h1{
-  margin-inline-start: 80px; 
+.main_3 h1 {
+  margin-inline-start: 80px;
   margin-block: 30px;
   font-size: 2.5rem;
 }
 
-
-.main_3 h2{
+.main_3 h2 {
   font-size: 1.2rem;
   font-weight: 300;
   margin-top: 5px;
-  font-family: 'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic light", "Arial Narrow", Arial, sans-serif;
 }
 
-
-.main_3 h3{
+.main_3 h3 {
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 1.5;
 }
 
-.main_3 h4{
- font-size: 2rem;
+.main_3 h4 {
+  font-size: 2rem;
 }
 
 .main_3 h3:hover {
- text-decoration-line: underline;
- font-size: 1.56rem;
+  text-decoration-line: underline;
+  font-size: 1.56rem;
 }
 
 /*fjerde sketion - overskrift + streg  og 4 medium billeder med tekst under*/
 
-.grid_4{
+.grid_4 {
   display: grid;
   grid-template-columns: 1fr;
-  gap:10px;
+  gap: 10px;
 }
 
-
 .main_4 h1 {
-font-size: 2rem;
-text-decoration: underline;
-
+  font-size: 2rem;
+  text-decoration: underline;
 }
 
 .main_4 h2 {
-margin-bottom: 10px;
-font-size: 2.5rem;
-font-weight: 300;
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+  font-weight: 300;
 }
 
 .main_4 h3 {
@@ -112,72 +106,71 @@ font-weight: 300;
 .main_4 p {
   font-size: 1.7rem;
   font-weight: 100;
-  margin-top: -10px; 
+  margin-top: -10px;
   text-decoration: underline;
 }
 
-.main_4 .col1{
-  
+.main_4 .col1 {
 }
 
-.main_4 h1:hover, p:hover {
+.main_4 h1:hover,
+p:hover {
   font-size: 2.2rem;
 }
 
-
 /*femte sektion - nyeste opskrifter - billeder med tekst under*/
 
-.grid_5{
+.grid_5 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 15px;  
+  gap: 15px;
 }
 
-.main_5 h1{
-  font-family:Impact, Haettenschweiler, sans-serif;
+.main_5 h1 {
+  font-family: Impact, Haettenschweiler, sans-serif;
   margin-block: 40px;
   font-size: 2.7rem;
 }
 
-.streg{
-display: none;
+.streg {
+  display: none;
   margin-inline-start: 5px;
   margin-top: -25px;
   margin-bottom: 10px;
 }
-.grid_5 p{
+.grid_5 p {
   font-size: 1rem;
   font-weight: 550;
 }
 
-
 /*5/6 sektion - nyeste opskrifter -billeder med tekst under + col med nyhedsbrevsliste til højre.*/
 
-.nyhedsbreve{
+.nyhedsbreve {
   margin-inline-start: 5px;
 }
-.nyhedsbreve h1{
+.nyhedsbreve h1 {
   font-size: 2rem;
 }
 
-.grid_6{
+.grid_6 {
   display: grid;
   gap: 10px;
 }
 
-.grid_6 p{
-  font-family:Leelawe;
+.grid_6 p {
+  font-family: Leelawe;
 }
-.element_1, .element_2, .element_3{
-
+.element_1,
+.element_2,
+.element_3 {
 }
-.element_4 p{
+.element_4 p {
   font-size: 20px;
-}.element_4 h3{
-  font-size: 20px;
- 
 }
-.element_4 h2{
+.element_4 h3 {
+  font-size: 20px;
+}
+.element_4 h2 {
   font-size: 13px;
   margin-bottom: 15px;
   border: solid 1px black;
@@ -185,239 +178,237 @@ display: none;
 }
 
 @media (min-width: 600px) {
-  .grid_1{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap:15px;
+  .grid_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
   }
-  
-  .main_1 img{ 
-      margin-inline-start: 40px;
-      margin-block-start: 50px;
+
+  .main_1 img {
+    margin-inline-start: 40px;
+    margin-block-start: 50px;
   }
-  
-  .main_1 h1{
-   font-size: 3rem;
-   margin-inline-start: 160px;
-   margin-block-start: 160px;
+
+  .main_1 h1 {
+    font-size: 3rem;
+    margin-inline-start: 160px;
+    margin-block-start: 160px;
   }
-  
-  .main_1 h2{
-      font-size: 1.2rem;
-      margin-inline-start: 160px;
-      margin-block: 40px;
+
+  .main_1 h2 {
+    font-size: 1.2rem;
+    margin-inline-start: 160px;
+    margin-block: 40px;
   }
-  
-  .main_1 p{
-      margin-inline-start: 160px;
-      margin-top:-25px;
-      text-decoration: underline;
+
+  .main_1 p {
+    margin-inline-start: 160px;
+    margin-top: -25px;
+    text-decoration: underline;
   }
-  
-  .main_1 p:hover{
-      font-weight: 900;
+
+  .main_1 p:hover {
+    font-weight: 900;
   }
-  
+
   /*anden sketion - 6 små billeder med kategorierne*/
-  
-  .grid_2{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-      gap:10px;
-      margin-block: 120px;
-      margin-inline-start: 80px;
-      margin-inline-end: 80px;
+
+  .grid_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-block: 120px;
+    margin-inline-start: 80px;
+    margin-inline-end: 80px;
   }
-  
+
   /*placering af teksten (kategorien) på billederne*/
-  
-  .main_2 .col1 h2{
-      position: absolute;
-      top: 86%;
-      left: 9%;
+
+  .main_2 .col1 h2 {
+    position: absolute;
+    top: 86%;
+    left: 9%;
   }
-  .main_2 .col2 h2{
-          position: absolute;
-          top: 86%;
-          left: 22.5%;
-  }.main_2 .col3 h2{
-          position: absolute;
-          top: 86%;
-          left: 37.3%;
+  .main_2 .col2 h2 {
+    position: absolute;
+    top: 86%;
+    left: 22.5%;
   }
-  .main_2 .col4 h2{
-      position: absolute;
-      top: 86%;
-      left: 53%;
-    }
-  .main_2 .col5 h2{
-      position: absolute;
-      top: 86%;
-      left: 69.3%;
-    }
-  .main_2 .col6 h2{
-      position: absolute;
-      top: 86%;
-      left: 82.5%;
-    }
-  
-    .main_2 h2{
-        font-size: 1.3rem;
-        color: rgb(117, 69, 161);
-        background-color: rgb(255, 255, 255);
-        padding: 5px;
-       }
-    
-       .main_2 h2:hover {
-          font-size: 1.4rem;
-        }
-  
+  .main_2 .col3 h2 {
+    position: absolute;
+    top: 86%;
+    left: 37.3%;
+  }
+  .main_2 .col4 h2 {
+    position: absolute;
+    top: 86%;
+    left: 53%;
+  }
+  .main_2 .col5 h2 {
+    position: absolute;
+    top: 86%;
+    left: 69.3%;
+  }
+  .main_2 .col6 h2 {
+    position: absolute;
+    top: 86%;
+    left: 82.5%;
+  }
+
+  .main_2 h2 {
+    font-size: 1.3rem;
+    color: rgb(117, 69, 161);
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+  }
+
+  .main_2 h2:hover {
+    font-size: 1.4rem;
+  }
+
   /*tredje sketion - overskrift + streg  og 4 medium billeder med tekst under*/
-  
-  .grid_3{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      gap:10px;  
-      margin-inline: 80px;
+
+  .grid_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-inline: 80px;
   }
-  
-  .main_3 h1{
-      margin-inline-start: 480px; 
-      margin-block: 30px;
-      font-size: 2.5rem;
+
+  .main_3 h1 {
+    margin-inline-start: 480px;
+    margin-block: 30px;
+    font-size: 2.5rem;
   }
-  
-  
-  .main_3 h2{
-      font-size: 1.2rem;
-      font-weight: 300;
-      margin-top: 5px;
-      font-family: 'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
-   }
-  
-  
-  .main_3 h3{
-      font-size: 1.5rem;
-      font-weight: 600;
-      line-height: 1.5;
-   }
-  
-  .main_3 h4{
-     font-size: 2rem;
+
+  .main_3 h2 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 5px;
+    font-family: "Franklin Gothic light", "Arial Narrow", Arial, sans-serif;
   }
-  
+
+  .main_3 h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+
+  .main_3 h4 {
+    font-size: 2rem;
+  }
+
   .main_3 h3:hover {
-     text-decoration-line: underline;
-     font-size: 1.56rem;
-    }
-  
+    text-decoration-line: underline;
+    font-size: 1.56rem;
+  }
+
   /*fjerde sketion - overskrift + streg  og 4 medium billeder med tekst under*/
-  
-  .grid_4{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap:10px;
-      margin-inline:150px;
-      margin-block: 180px;
+
+  .grid_4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-inline: 150px;
+    margin-block: 180px;
   }
-  
-  .main_4 .col2{
-      display: flex;
-      flex-direction: column;
-      margin-inline-start: 40px;
+
+  .main_4 .col2 {
+    display: flex;
+    flex-direction: column;
+    margin-inline-start: 40px;
   }
-  
+
   .main_4 h1 {
     font-size: 2rem;
     text-decoration: underline;
-    
   }
-  
+
   .main_4 h2 {
     margin-bottom: -10px;
     font-size: 2.5rem;
     font-weight: 300;
   }
-  
+
   .main_4 h3 {
-      margin-top: 50px;
-      font-size: 1.2rem;
-      font-weight: 100;
+    margin-top: 50px;
+    font-size: 1.2rem;
+    font-weight: 100;
   }
-  
-  .main_4 p {
-      font-size: 1.7rem;
-      font-weight: 100;
-      margin-top: -10px; 
-      text-decoration: underline;
+
+  .main_4 a {
+    font-size: 1.7rem;
+    font-weight: 100;
+    margin-top: -10px;
+    text-decoration: underline;
+    color: white;
   }
-  
-  .main_4 h1:hover, p:hover {
-      font-size: 2.2rem;
+
+  .main_4 a:hover,
+  p:hover {
+    font-size: 2.2rem;
   }
-  
-  
+
   /*femte sektion - nyeste opskrifter - billeder med tekst under*/
-  
-  .grid_5{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      gap: 15px;  
-      margin-inline: 80px;
+
+  .grid_5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    margin-inline: 80px;
   }
-  
-  .main_5 h1{
-      font-family:Impact, Haettenschweiler, sans-serif;
-      margin-inline-start: 550px; 
-      margin-block: 40px;
-      font-size: 2.7rem;
+
+  .main_5 h1 {
+    font-family: Impact, Haettenschweiler, sans-serif;
+    margin-inline-start: 550px;
+    margin-block: 40px;
+    font-size: 2.7rem;
   }
-  
-  .streg{
-      margin-inline-start: 610px;
-      margin-top: -25px;
-      margin-bottom: 10px;
+
+  .streg {
+    margin-inline-start: 610px;
+    margin-top: -25px;
+    margin-bottom: 10px;
   }
-  .grid_5 p{
-      font-size: 1rem;
-      font-weight: 550;
+  .grid_5 p {
+    font-size: 1rem;
+    font-weight: 550;
   }
-  
-  
+
   /*5/6 sektion - nyeste opskrifter -billeder med tekst under + col med nyhedsbrevsliste til højre.*/
-  
-  .nyhedsbreve{
-      margin-inline-start: 170px;
+
+  .nyhedsbreve {
+    margin-inline-start: 170px;
   }
-  .nyhedsbreve h1{
-      font-size: 2rem;
+  .nyhedsbreve h1 {
+    font-size: 2rem;
   }
-  
-  .grid_6{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      gap: 10px;
-      margin-inline: 80px;
+
+  .grid_6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-inline: 80px;
   }
-  
-  .grid_6 p{
-      font-family:Leelawe;
+
+  .grid_6 p {
+    font-family: Leelawe;
   }
-  
-  .grid_6 .element_4{
-      margin-inline-start: -120px;
+
+  .grid_6 .element_4 {
+    margin-inline-start: -120px;
   }
-  
-  .element_4 p{
-      font-size: 20px;
-  }.element_4 h3{
-      font-size: 20px;
-     
+
+  .element_4 p {
+    font-size: 20px;
   }
-  .element_4 h2{
-      font-size: 13px;
-      margin-bottom: 15px;
-      border: solid 1px black;
-      margin-inline-end: 325px;
+  .element_4 h3 {
+    font-size: 20px;
   }
+  .element_4 h2 {
+    font-size: 13px;
+    margin-bottom: 15px;
+    border: solid 1px black;
+    margin-inline-end: 325px;
   }
+}

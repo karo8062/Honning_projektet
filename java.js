@@ -35,6 +35,7 @@
 
 //lav variablen "btn", der henviser til "toggle-btn"
 //lav variablen "menu", der henviser til ".main-menu"
+/*
 const btn = document.querySelector(".toggle-btn");
 const menu = document.querySelector(".menu");
 
@@ -47,3 +48,4 @@ function toggleMenu() {
 
 //tilføj et klik-event til "btn", der sætter toggleMenu-funktionen i gang
 btn.addEventListener("click", toggleMenu);
+*/
