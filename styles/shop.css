@@ -11,8 +11,9 @@ main {
 
 .sortér_efter {
   display: flex;
-  align-self: flex-end;
-  padding: 1rem;
+  justify-content: end;
+  width: 20%;
+  height: auto;
 }
 
 .type {
@@ -45,6 +46,11 @@ img {
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+  .grid_1-1-1-1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
   }
 }
 
@@ -147,4 +153,17 @@ button {
   display: inline-block;
   font-size: 12px;
   border-radius: 25px;
+}
+
+.h1_relaterede {
+  text-align: center;
+}
+
+.p_pris {
+  font-size: 1rem;
+}
+
+.p_text {
+  font-size: 1.2rem;
+  font-weight: bold;
 }
