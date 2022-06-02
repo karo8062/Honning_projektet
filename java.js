@@ -33,19 +33,12 @@
 //   setTimeout(carousel, 5000); // Change image every 5 seconds
 // }
 
-//lav variablen "btn", der henviser til "toggle-btn"
-//lav variablen "menu", der henviser til ".main-menu"
-/*
-const btn = document.querySelector(".toggle-btn");
-const menu = document.querySelector(".menu");
-
-//lav funktionen "toggleMenu()" med følgende funktionalitet:
-function toggleMenu() {
-  // a) toggle klassen "shown" på menu vha. classlist.toggle
-  menu.classList.toggle("shown");
-  let menuShown = menu.classList.contains("shown");
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
 }
-
-//tilføj et klik-event til "btn", der sætter toggleMenu-funktionen i gang
-btn.addEventListener("click", toggleMenu);
-*/

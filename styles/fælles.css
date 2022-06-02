@@ -133,6 +133,58 @@ body {
     width: 50%;
     margin: 30px;
   }
+
+  .topnav {
+    display: none;
+  }
+}
+
+@media (max-width: 599px) {
+  .header_left {
+    display: none;
+  }
+  /* Style the navigation menu */
+  .topnav {
+    overflow: hidden;
+    position: relative;
+    display: block;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+    background-color: #40372d;
+  }
+
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    display: block;
+    position: relative;
+    right: 0;
+    top: 0;
+    background-color: #40372d;
+  }
+
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #b27e25;
+    color: black;
+  }
+
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #b27e25;
+    color: white;
+  }
 }
 
 /* _____________________footer____________________________ */
@@ -225,45 +277,3 @@ h1 {
 }
 
 /* ------------------ BURGERMENU ------------------------------------*/
-/*
-.toggle-btn {
-  background: transparent;
-  border: none;
-  min-width: 44px;
-  font-size: 1.1rem;
-  cursor: pointer;
-
-  display: none; /* skjul knappen som standard
-}
-.toggle-btn {
-  color: black;
-  width: auto;
-  height: 100%;
-}
-
-@media (max-width: 600px) {
-  .toggle-btn {
-    display: block; /* vis knappen, når viewporten maksimalt er 600 px */
-
-/*
-  .menu {
-    display: contents; /* fjern "main.-menu"-boksen fra ligningen, når viewporten maksimalt er 600px men behold børnene så disse deltager i flex-kontekten*/
-
-/*
-  .menu ul {
-    display: none; 
-  }
-  .menu.shown ul {
-
-    position: absolute;
-    border-top: 1px solid black;
-    padding-top: 1rem;
-    display: flex;
-    flex: 1 1 100%;
-    flex-flow: column;
-    margin-left: auto;
-    top: 20px;
-    left: 20px;
-  }
-}
-*/
