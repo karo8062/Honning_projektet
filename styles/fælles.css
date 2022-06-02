@@ -32,7 +32,7 @@ body {
   margin: 30px;
 }
 
-video{
+video {
   height: auto;
   width: 100%;
 }
@@ -268,8 +268,6 @@ footer {
   font-style: italic;
 }
 
-} */
-
 /* ________________________________________________________________ */
 
 p {
@@ -281,5 +279,3 @@ h1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: white;
 }
-
-/* ------------------ BURGERMENU ------------------------------------*/
