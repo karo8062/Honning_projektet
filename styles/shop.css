@@ -6,7 +6,7 @@ main {
 .search_bar {
   width: 100%;
   height: auto;
-  background-color: grey;
+  padding-bottom: 0.2rem;
 }
 
 .sortér_efter {
