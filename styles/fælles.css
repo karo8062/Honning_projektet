@@ -1,9 +1,3 @@
-body {
-  background-color: #40372d;
-
-  /* #b5a89c; */
-}
-
 nav a {
   text-decoration: solid;
   color: black;
@@ -28,6 +22,8 @@ li {
 
 body {
   background-color: #40372d;
+  /*#836037*/
+
   margin: 0 auto;
   /* #b5a89c; */
 }
